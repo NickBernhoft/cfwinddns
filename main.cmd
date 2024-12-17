@@ -30,7 +30,7 @@ nslookup myip.opendns.com resolver1.opendns.com > IPinfo.txt
 
 :: 
 echo generating command output
-start /wait cmdgen DNSinfo.txt %target_domain% IPinfo.txt
+start /wait /min cmdgen DNSinfo.txt %target_domain% IPinfo.txt
 
 :: if the the domain IP is the same as your ip, the program will do nothing
 :: this call will set the "dns_record_id" and "new_ip" variables
