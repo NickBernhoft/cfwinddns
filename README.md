@@ -8,10 +8,15 @@ this program automaticly keeps the IP of a given domain up to date with the publ
 ### enter these at the top of `main.cmd` (right click -> edit) the descriptions below tell you how to find them this is the only required step
 
 user defined variables:
+
 email
+
 api_key
+
 api_token
+
 zone_id
+
 target_domain
 
 *they should be entered with no extra spaces, the following is an example of what the top of main.cmd should look like*
