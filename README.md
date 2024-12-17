@@ -28,11 +28,9 @@ set zone_id=545e73b389c3d4e3f44831429b123db4
 set target_domain=minecraft.bigfrogs.win
 ```
 
-variables fetched by the program:
-
-dns_record_id
-
-new_ip
+variables fetched by the program:\
+dns_record_id\
+new_ip\
 
 ## Running
 After you enter the info at the top of main, this program is ready to go. Simply run `main.cmd`
@@ -51,7 +49,7 @@ this is the identifier for an entire domain. Cloudflare Dashboard -> websites ->
 this is the email your cloudflare account is made with
 
 ### `api_token`
-This is an API tokan generated that has access to the site you would like to have the ddns apply to. You can generate one
+This is an API token generated that has access to the site you would like to have the ddns apply to. You can generate one
 
 My Profile -> API Tokens -> API Tokens (Create Token) -> Edit zone DNS (use template)
 
