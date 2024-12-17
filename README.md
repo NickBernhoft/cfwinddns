@@ -7,16 +7,11 @@ this program automaticly keeps the IP of a given domain up to date with the publ
 ## How To Use:
 ### enter these at the top of `main.cmd` (right click -> edit) the descriptions below tell you how to find them this is the only required step
 
-user defined variables:
-
-email
-
-api_key
-
-api_token
-
-zone_id
-
+user defined variables:\
+email\
+api_key\
+api_token\
+zone_id\
 target_domain
 
 *they should be entered with no extra spaces, the following is an example of what the top of main.cmd should look like*
@@ -30,7 +25,7 @@ set target_domain=minecraft.bigfrogs.win
 
 variables fetched by the program:\
 dns_record_id\
-new_ip\
+new_ip
 
 ## Running
 After you enter the info at the top of main, this program is ready to go. Simply run `main.cmd`
@@ -53,10 +48,10 @@ This is an API token generated that has access to the site you would like to hav
 
 My Profile -> API Tokens -> API Tokens (Create Token) -> Edit zone DNS (use template)
 
-instructions for Create Token:
-Permissions: Zone | DNS Settings | Edit
-Zone Resources: Include | Specific Zone | [Name of your domain]
-Client IP Address Filtering: [you may leave this blank or set it if you like]
+instructions for Create Token:\
+Permissions: Zone | DNS Settings | Edit\
+Zone Resources: Include | Specific Zone | [Name of your domain]\
+Client IP Address Filtering: [you may leave this blank or set it if you like]\
 TTL: [you may leave this blank or set it if you like]
 
 -> continue to summary -> create Token
