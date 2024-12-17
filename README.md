@@ -58,7 +58,7 @@ TTL: [you may leave this blank or set it if you like]
 
 
 ### `api_key`
-this is your global API key. this can be found on your cloudflare dashboard on the site under "My Profile" >> API Tokens >> GlobalAPI key
+this is your global API key. this can be found on your cloudflare dashboard on the site under "My Profile" -> API Tokens -> GlobalAPI key
 
 ### `wait`
 This is the checking interval in seconds, default setting is one hour. The program is pretty lightweight so lowering this did not greatly increase power or CPU usage for me.
@@ -79,7 +79,7 @@ This is my first open source programming project!
 
 This program was made to run natively in windows with only batch / cmd scripts and one executable. Compiling it yourself is optional.
 
-I made this as a project for myself because i did not want to sign up and or pay for a DDNS service, and there were no existing programs i could find that did what this one does for me on windows. This program is for people who wanna see a problem they have, look at the git hub page that everone tolf them to, and not have to know what a compiler is or how to install GCC to the system PATH. I mean that is the type of person running a file server or minecraft server from an old windows PC anyways, right?
+I made this as a project for myself because i did not want to sign up and or pay for a DDNS service, and there were no existing programs i could find that did what this one does for me on windows. This program is for people who wanna see a problem they have, look at the git hub page that they found on google, and not have to know what a compiler is or how to install GCC to the system PATH to be able to actually use it. I mean that is the type of person running a file server or minecraft server from an old windows PC anyways, right?
 
 
 ### Compiling?
@@ -94,4 +94,4 @@ and save the output text files that the C program uses.
 The C program parses the data we need from the text files.
 and generate a new .cmd file that is then called by main.cmd
 
-There is some good room for expandability with the C program, right now it creates a struct with a profile for every subdomain returned from the `GET` API call. Its very neat and easy to access info for any given domain. This could be used to add more DNS editing functionalty, or recycled to be used to automate other domain managment tasks that are accessable through through the APIthat i dont even know about.
+There is some good room for expandability with the C program, right now it creates a struct with a profile for every subdomain returned from the `GET` API call. Its very neat and easy to access info for any given domain. This could be used to add more DDNS functionalty, or recycled to be used to automate other domain managment tasks that are accessable through through the API that i dont even know about.
