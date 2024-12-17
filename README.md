@@ -35,20 +35,22 @@ dns_record_id
 new_ip
 
 ## Running
-This program comes ready to go. You can just enter the variables at the top of main.cmd, and when youre done run it. if its not working you will know.
+After you enter the info at the top of main, this program is ready to go. Simply run `main.cmd`
 
 if you have GCC installed, you can delete `cmdgen.exe`, main.cmd will detect the absence of it and recompile the included C sourcecode using GCC.
+
+error handling is not complete for every possible case, but if it works you will know
 
 
 ## How To Find User Defined Variables Variables
 
-### zone_id:
+### `zone_id`
 this is the identifier for an entire domain. Cloudflare Dashboard -> websites -> [your domain] -> Overview -> Zone ID (shown on the page)
 
-### email
+### `email`
 this is the email your cloudflare account is made with
 
-### api_token
+### `api_token`
 This is an API tokan generated that has access to the site you would like to have the ddns apply to. You can generate one
 
 My Profile -> API Tokens -> API Tokens (Create Token) -> Edit zone DNS (use template)
@@ -62,18 +64,18 @@ TTL: [you may leave this blank or set it if you like]
 -> continue to summary -> create Token
 
 
-### api_key
+### `api_key`
 this is your global API key. this can be found on your cloudflare dashboard on the site under "My Profile" >> API Tokens >> GlobalAPI key
 
-### wait
+### `wait`
 This is the checking interval in seconds, default setting is one hour. The program is pretty lightweight so lowering this did not greatly increase power or CPU usage for me.
 
 
-### dns_record_id:
+### `dns_record_id`
 this will be fetched by the program
 
 
-### new_ip
+### `new_ip`
 this is fetched by the program
 
 
