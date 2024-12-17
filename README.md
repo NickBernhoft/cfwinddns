@@ -29,7 +29,9 @@ set target_domain=minecraft.bigfrogs.win
 ```
 
 variables fetched by the program:
+
 dns_record_id
+
 new_ip
 
 ## Running
@@ -40,14 +42,13 @@ if you have GCC installed, you can delete `cmdgen.exe`, main.cmd will detect the
 
 ## How To Find User Defined Variables Variables
 
-# zone_id:
+### zone_id:
 this is the identifier for an entire domain. Cloudflare Dashboard -> websites -> [your domain] -> Overview -> Zone ID (shown on the page)
 
-# email
+### email
 this is the email your cloudflare account is made with
 
-
-# api_token
+### api_token
 This is an API tokan generated that has access to the site you would like to have the ddns apply to. You can generate one
 
 My Profile -> API Tokens -> API Tokens (Create Token) -> Edit zone DNS (use template)
@@ -61,18 +62,18 @@ TTL: [you may leave this blank or set it if you like]
 -> continue to summary -> create Token
 
 
-# api_key
+### api_key
 this is your global API key. this can be found on your cloudflare dashboard on the site under "My Profile" >> API Tokens >> GlobalAPI key
 
-# wait
+### wait
 This is the checking interval in seconds, default setting is one hour. The program is pretty lightweight so lowering this did not greatly increase power or CPU usage for me.
 
 
-# dns_record_id:
+### dns_record_id:
 this will be fetched by the program
 
 
-# new_ip
+### new_ip
 this is fetched by the program
 
 
@@ -86,12 +87,12 @@ This program was made to run natively in windows with only batch / cmd scripts a
 I made this as a project for myself because i did not want to sign up and or pay for a DDNS service, and there were no existing programs i could find that did what this one does for me on windows. This program is for people who wanna see a problem they have, look at the git hub page that everone tolf them to, and not have to know what a compiler is or how to install GCC to the system PATH. I mean that is the type of person running a file server or minecraft server from an old windows PC anyways, right?
 
 
-# Compiling?
+### Compiling?
 Yes it comes with an exe. You can just enter the data from cloud flare and leave it running the background.
 if you like you can compile it yourself. To do this delete `cmdgen.exe`
 and main.cmd will detect its absense and use GCC to recompile it.
 
-# Mechanics
+### Mechanics
 the scripts job is to run Cloudflare API calls and an IP checking command
 and save the output text files that the C program uses.
 
