@@ -1,12 +1,11 @@
-### TO USE THIS SCRIPT YOU HAVE TO DEFINE A FEW VARIABLES AT THE TOP OF `main.cmd`
+# cfwinddns
+CloudFlare Windows DDNS
 
 ## what does this do?
 this program automaticly keeps the IP of a given domain up to date with the public IP of whatever computer you're running it on. This is useful for home server hosting because an ISP will usually change your public IP every couple weeks or so.
 
 ## How To Use:
-# enter these at the top of `main.cmd` (right click -> edit)
-# the descriptions below tell you how to find them
-# this is the only required step
+### enter these at the top of `main.cmd` (right click -> edit) the descriptions below tell you how to find them this is the only required step
 
 user defined variables:
 email
