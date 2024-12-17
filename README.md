@@ -30,9 +30,9 @@ new_ip
 ## Running
 After you enter the info at the top of main, this program is ready to go. Simply run `main.cmd`
 
-if you have GCC installed, you can delete `cmdgen.exe`, main.cmd will detect the absence of it and recompile the included C sourcecode using GCC.
+if you have GCC installed and would like to compile it yourself, you can delete or move `cmdgen.exe`, main.cmd will detect the absence of it and recompile the included C sourcecode using GCC.
 
-error handling is not complete for every possible case, but if it works you will know
+error handling is not complete for every possible case, but if the program works you will know
 
 
 ## How To Find User Defined Variables Variables
