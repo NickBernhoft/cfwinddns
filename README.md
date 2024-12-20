@@ -1,5 +1,6 @@
 # cfwinddns
 CloudFlare Windows DDNS
+this program will only work with a domain hosted by cloudflare
 
 ## what does this do?
 this program automaticly keeps the IP of a given domain up to date with the public IP of whatever computer you're running it on. This is useful for home server hosting because an ISP will usually change your public IP every couple weeks or so.
